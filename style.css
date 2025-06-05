@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div>button{
+    color: black;
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+    width: 20vw;
+    height: 7vh;
+    animation: ChangeColor 0.5s infinite;
+}
+@keyframes ChangeColor{
+    0%{
+        background-color: rgb(255, 0, 0);
+    }
+     10%{
+        background-color: orange;
+    }
+     25%{
+        background-color: yellow;
+    }
+     45%{
+        background-color: green;
+    }
+     60%{
+        background-color: rgb(0, 195, 255);
+    }
+     75%{
+        background-color: blue;
+    }
+     100%{
+        background-color: purple;
+    }
+
+}

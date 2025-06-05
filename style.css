@@ -8,6 +8,25 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 3vh;
+}
+img{
+    width: 5vw;
+    position: relative;
+    animation: Arrowmove 1s infinite alternate;
+}
+@keyframes Arrowmove{
+    from{
+        top: 2vh;
+    }
+    to{
+        top: -2vh;
+    }
+}
+p{
+    color: white;
+    font-size: 30px;
 }
 div>button{
     color: black;
